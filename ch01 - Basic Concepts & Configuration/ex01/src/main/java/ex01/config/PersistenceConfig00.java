@@ -16,7 +16,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan(basePackages = {"com.example.ex01.repository"})
+@ComponentScan(basePackages = {"ex01.repository"})
 public class PersistenceConfig00 {
 
     // DataSource
