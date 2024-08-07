@@ -9,7 +9,7 @@ spring:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://192.168.66.4:3306/jpadb?charset=utf8
+    url: jdbc:mariadb://192.168.64.7:3306/jpadb?charset=utf8
     username: jpadb
     password: jpadb
     hikari:
