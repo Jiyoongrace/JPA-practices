@@ -12,8 +12,8 @@
 5. @Entity 적용 시 주의사항II: domain.marketing.Member, domain.sales.Member
    - 다른 패키지의 같은 이름의 클래스에 @entity를 적용해야 하는 경우
    - name 속성을 사용해서 이름을 다르게 지정해 주어야 한다.
-   - 이 때에는 클래스 이름이 아니라 속성 이름으로 물리 테이블과 매핑된다.  
-6. [예제] ex01: DDL 자동 생성 
+   - 이 때에는 클래스 이름이 아니라 속성 이름으로 물리 테이블과 매핑된다.
+6. [예제] ex01: DDL 자동 생성
 
 
 #### 2. Database Table: @Table
@@ -54,7 +54,7 @@
    - Date regDate: @Temporal의 속성 TemporalType.TIMESTAMP 사용한 매핑
 
 5. User Entity
-   - GenderType gender: @Enumerated를 사용한 Enum 타입 매핑 
+   - GenderType gender: @Enumerated를 사용한 Enum 타입 매핑
    - RoleType role: @Enumerated를 사용한 Enum 타입 매핑
 
 6. Board Entity
